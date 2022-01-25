@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(168, 170, 173);
+}
+h1{
+    margin: 10px 0px;
+    background-color: purple;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(243, 243, 243);
+}
+input{
+    font-family: 'Comfortaa', cursive;
+}
+a{
+    color: rgb(25, 6, 44);
+}
+
+.table{
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+}
+.btn{
+    font-family: 'Short Stack', cursive;
+}
+.indigo{
+    background-color: indigo;
+    color: aliceblue;
+}
