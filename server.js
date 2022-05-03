@@ -21,8 +21,10 @@ app.use(express.urlencoded({
     extended: false
 }))
 
-app.listen(process.env.PORT || 3000,()=>{
-    console.log("Server Started")
+let PORT = process.env.PORT || 3000
+
+app.listen(PORT,()=>{
+    console.log(`Server started at ${PORT}`)
 });
 
 app.get('/', async (req,res)=>{
